@@ -14,6 +14,7 @@ authors:
     affiliation: >-
       Department of Applied Mathematics, Kongju National University
 repository-code: https://github.com/junyeobe0315/geodesic-leech-wheels
+doi: 10.5281/zenodo.22254583
 # code/ and search/ are MIT; paper/ and data/ are CC BY 4.0 (see README).
 # A single value is given here because Zenodo's GitHub integration reads this
 # file and accepts one license identifier.

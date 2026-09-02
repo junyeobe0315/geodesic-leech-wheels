@@ -1,9 +1,18 @@
-# Geodesic Leech labelings of wheel graphs
+# A geodesic Leech wheel has at most 40 vertices
 
-Companion repository for the article
+[![checks](https://github.com/junyeobe0315/geodesic-leech-wheels/actions/workflows/checks.yml/badge.svg)](https://github.com/junyeobe0315/geodesic-leech-wheels/actions/workflows/checks.yml)
+![python](https://img.shields.io/badge/python-3.9%2B-blue)
+![c++17](https://img.shields.io/badge/C%2B%2B-C%2B%2B17-blue)
+![category](https://img.shields.io/badge/category-combinatorics_(math.CO)-blueviolet)
+![reviewed](https://img.shields.io/badge/peer%20reviewed-no-orange)
+![arXiv](https://img.shields.io/badge/arXiv-pending-lightgrey)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22254583-blue)](https://doi.org/10.5281/zenodo.22254583)
+
+Companion repository for the paper
 
 > **A finiteness theorem for geodesic Leech wheels**
-> Junyeop Yim, Department of Applied Mathematics, Kongju National University
+> — Junyeop Yim (2026), Department of Applied Mathematics, Kongju National University.
+> [paper/main.pdf](paper/main.pdf) · source: [paper/](paper/)
 
 A positive-integer edge labeling of a graph is a *geodesic Leech labeling* if the
 weights of its geodesics are exactly 1, 2, …, `t_gp(G)`, each occurring once.
@@ -262,3 +271,6 @@ The article in `paper/` and the data in `data/`: [CC BY 4.0](LICENSE-CC-BY-4.0).
 ## Citing
 
 See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this repository" button.
+Tagged releases are archived on Zenodo; the concept DOI
+[10.5281/zenodo.22254583](https://doi.org/10.5281/zenodo.22254583) always
+resolves to the latest release, and each release also has a DOI of its own.
