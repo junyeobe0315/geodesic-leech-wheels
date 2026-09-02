@@ -28,12 +28,12 @@ STEPS: Sequence[Tuple[str, str, Tuple[str, ...]]] = (
         (),
     ),
     (
-        "sections 8-9 numerics",
+        "sections 7-8 numerics",
         "verify_boundary_numerics.py",
         (),
     ),
     (
-        "lemma 6.3 small cases",
+        "lemma 5.3 small cases",
         "verify_finite_fourier_lemma_small.py",
         ("--max-w", "18"),
     ),
