@@ -15,9 +15,9 @@ authors:
       Department of Applied Mathematics, Kongju National University
 repository-code: https://github.com/junyeobe0315/geodesic-leech-wheels
 # code/ and search/ are MIT; paper/ and data/ are CC BY 4.0 (see README).
-license:
-  - MIT
-  - CC-BY-4.0
+# A single value is given here because Zenodo's GitHub integration reads this
+# file and accepts one license identifier.
+license: MIT
 keywords:
   - geodesic Leech labeling
   - geodesic path number
