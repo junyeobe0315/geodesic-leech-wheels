@@ -1,0 +1,34 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Windows-on-WSL alternate data streams
+*:Zone.Identifier
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+
+# built search binaries
+search/wheel_search_cpp
+search/wheel_search_cpp_selftest
+
+# the search logs in timing-runs are evidence for the paper, not build products
+!search/timing-runs/*.log
+
+# keep the built paper in releases
+!paper/main.pdf

@@ -1,0 +1,26 @@
+Plain-text abstract for the arXiv submission form. The abstract field is not
+typeset, so the LaTeX version in main.tex is kept as it is and this one drops the
+markup. Suggested primary class: math.CO, cross-listed math.NT
+(MSC 05C78; secondary 05C12, 11B13, 42A05).
+
+Keep the two paragraphs below in step with the abstract in main.tex.
+
+----------------------------------------------------------------------
+
+Let f be a labeling of the edges of a finite graph G by positive integers, and
+let the weight of a path be the sum of the labels of its edges. The labeling is
+a geodesic Leech labeling if the weights of the geodesics are exactly
+1, 2, ..., t_gp(G), each occurring once, where t_gp(G) is the geodesic path
+number of G. Let W_n be the wheel on n vertices, a hub joined to an
+(n-1)-cycle.
+
+Our main result is an upper bound: if n >= 5 and W_n is geodesic Leech, then
+n <= 40. The proof quantifies, via a finite Fourier kernel, the Sidon-type
+structure of the spoke labels, in which only the cyclically adjacent pairs are
+allowed as defects, and closes the last three cases with a six-variable
+Parseval argument. In the other direction, explicit labelings of W_7, ..., W_13,
+found by a computer search, answer in the negative a problem of Lakshmanan S.
+and Manattu, who had found labelings of W_5 and W_6 and expected every W_n with
+n >= 7 to be a non-geodesic Leech graph. Writing E for the set of n >= 5 for
+which W_n is geodesic Leech, we obtain {5, 6, ..., 13} is contained in E, which
+is contained in {5, 6, ..., 40}.

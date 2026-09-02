@@ -1,0 +1,10 @@
+seed=20260831, time limit 3600s per wheel
+
+    W_11:    15s     732,000 steps     3530 feasible sets       149 orders tried  current cost 1
+    W_11:    30s   1,425,800 steps     6823 feasible sets       335 orders tried  current cost 2
+    W_11:    45s   2,128,200 steps    10055 feasible sets       562 orders tried  current cost 2
+W_11  PASS      47.3s, 10528 feasible sets  (a labeling not in Table 1)
+      A = [2, 4, 39, 36, 7, 18, 6, 26, 17, 25]
+      B = [1, 15, 12, 47, 5, 55, 3, 34, 14, 49]
+
+1/1 wheels solved and independently verified.

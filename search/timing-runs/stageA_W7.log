@@ -1,0 +1,7 @@
+seed=20260831, time limit 3600s per wheel
+
+W_7   PASS      0.0s, 16 feasible sets  (a labeling not in Table 1)
+      A = [8, 1, 17, 14, 4, 10]
+      B = [2, 7, 6, 20, 3, 16]
+
+1/1 wheels solved and independently verified.

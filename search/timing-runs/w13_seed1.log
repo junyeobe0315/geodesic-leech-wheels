@@ -1,0 +1,18 @@
+seed=1, time limit 21600s per wheel
+
+    W_13:    15s     405,600 steps       16 feasible sets         0 orders tried  current cost 6
+    W_13:    30s     802,400 steps       36 feasible sets         0 orders tried  current cost 11
+    W_13:    45s   1,184,400 steps       54 feasible sets         0 orders tried  current cost 5
+    W_13:    60s   1,530,600 steps       72 feasible sets         0 orders tried  current cost 3
+    W_13:    75s   1,874,600 steps       92 feasible sets         0 orders tried  current cost 3
+    W_13:    90s   2,236,000 steps      101 feasible sets         0 orders tried  current cost 2
+    W_13:   105s   2,613,400 steps      123 feasible sets         0 orders tried  current cost 2
+    W_13:   120s   2,950,000 steps      133 feasible sets         0 orders tried  current cost 3
+    W_13:   135s   3,330,400 steps      147 feasible sets         0 orders tried  current cost 2
+    W_13:   150s   3,689,800 steps      156 feasible sets         0 orders tried  current cost 2
+    W_13:   165s   3,970,600 steps      165 feasible sets         0 orders tried  current cost 3
+    W_13:   180s   4,161,000 steps      170 feasible sets         0 orders tried  current cost 5
+    W_13:   195s   4,536,600 steps      197 feasible sets         0 orders tried  current cost 1
+    W_13:   210s   4,929,600 steps      213 feasible sets         0 orders tried  current cost 3
+    W_13:   225s   5,315,400 steps      226 feasible sets         0 orders tried  current cost 1
+    W_13:   240s   5,700,800 steps      246 feasible sets         0 orders tried  current cost 6

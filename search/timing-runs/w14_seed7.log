@@ -1,0 +1,33 @@
+seed=7, time limit 64800s per wheel
+
+    W_14:    15s     347,800 steps        0 feasible sets         0 orders tried  current cost 4
+    W_14:    30s     688,600 steps        5 feasible sets         0 orders tried  current cost 5
+    W_14:    45s   1,004,200 steps       10 feasible sets         0 orders tried  current cost 10
+    W_14:    60s   1,352,800 steps       14 feasible sets         0 orders tried  current cost 3
+    W_14:    75s   1,705,600 steps       14 feasible sets         0 orders tried  current cost 7
+    W_14:    90s   2,061,800 steps       15 feasible sets         0 orders tried  current cost 13
+    W_14:   105s   2,415,200 steps       20 feasible sets         0 orders tried  current cost 2
+    W_14:   120s   2,771,000 steps       21 feasible sets         0 orders tried  current cost 4
+    W_14:   135s   3,120,400 steps       23 feasible sets         0 orders tried  current cost 10
+    W_14:   150s   3,469,600 steps       27 feasible sets         0 orders tried  current cost 7
+    W_14:   165s   3,817,600 steps       29 feasible sets         0 orders tried  current cost 4
+    W_14:   180s   4,171,000 steps       34 feasible sets         0 orders tried  current cost 5
+    W_14:   195s   4,492,200 steps       34 feasible sets         0 orders tried  current cost 4
+    W_14:   210s   4,838,000 steps       35 feasible sets         0 orders tried  current cost 4
+    W_14:   225s   5,184,000 steps       37 feasible sets         0 orders tried  current cost 6
+    W_14:   240s   5,532,600 steps       37 feasible sets         0 orders tried  current cost 4
+    W_14:   255s   5,887,000 steps       38 feasible sets         0 orders tried  current cost 5
+    W_14:   270s   6,244,600 steps       40 feasible sets         0 orders tried  current cost 6
+    W_14:   285s   6,590,600 steps       40 feasible sets         0 orders tried  current cost 4
+    W_14:   300s   6,914,800 steps       43 feasible sets         0 orders tried  current cost 5
+    W_14:   315s   7,266,400 steps       43 feasible sets         0 orders tried  current cost 8
+    W_14:   330s   7,586,200 steps       47 feasible sets         0 orders tried  current cost 5
+    W_14:   345s   7,897,800 steps       48 feasible sets         0 orders tried  current cost 1
+    W_14:   360s   8,201,000 steps       49 feasible sets         0 orders tried  current cost 17
+    W_14:   375s   8,501,200 steps       54 feasible sets         0 orders tried  current cost 19
+    W_14:   390s   8,811,400 steps       59 feasible sets         0 orders tried  current cost 2
+    W_14:   405s   9,115,600 steps       59 feasible sets         0 orders tried  current cost 1
+    W_14:   420s   9,442,200 steps       59 feasible sets         0 orders tried  current cost 14
+    W_14:   435s   9,738,400 steps       61 feasible sets         0 orders tried  current cost 2
+    W_14:   450s  10,061,400 steps       63 feasible sets         0 orders tried  current cost 15
+    W_14:   465s  10,373,400 steps       67 feasible sets         0 orders tried  current cost 3

@@ -1,0 +1,22 @@
+seed=20260831, time limit 3600s per wheel
+
+    W_12:    15s     634,800 steps      859 feasible sets        15 orders tried  current cost 1
+    W_12:    30s   1,256,000 steps     1663 feasible sets        54 orders tried  current cost 1
+    W_12:    45s   1,894,200 steps     2460 feasible sets        60 orders tried  current cost 1
+    W_12:    60s   2,524,800 steps     3350 feasible sets        70 orders tried  current cost 4
+    W_12:    75s   3,154,200 steps     4197 feasible sets        74 orders tried  current cost 1
+    W_12:    90s   3,783,800 steps     5016 feasible sets        86 orders tried  current cost 4
+    W_12:   105s   4,421,200 steps     5868 feasible sets        93 orders tried  current cost 7
+    W_12:   120s   5,059,400 steps     6704 feasible sets       123 orders tried  current cost 1
+    W_12:   135s   5,697,000 steps     7513 feasible sets       126 orders tried  current cost 2
+    W_12:   150s   6,343,800 steps     8378 feasible sets       145 orders tried  current cost 6
+    W_12:   165s   6,939,600 steps     9177 feasible sets       146 orders tried  current cost 5
+    W_12:   180s   7,573,600 steps    10017 feasible sets       146 orders tried  current cost 1
+    W_12:   195s   8,194,600 steps    10909 feasible sets       166 orders tried  current cost 1
+    W_12:   210s   8,832,400 steps    11816 feasible sets       190 orders tried  current cost 1
+    W_12:   225s   9,465,800 steps    12698 feasible sets       196 orders tried  current cost 4
+W_12  PASS      232.2s, 13086 feasible sets  (a labeling not in Table 1)
+      A = [38, 39, 2, 37, 3, 10, 31, 17, 22, 26, 13]
+      B = [1, 8, 66, 11, 7, 14, 58, 4, 67, 6, 45]
+
+1/1 wheels solved and independently verified.

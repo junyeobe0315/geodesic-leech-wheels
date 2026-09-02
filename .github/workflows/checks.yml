@@ -1,0 +1,48 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run every reproducibility check
+        run: python3 code/run_all_checks.py
+
+  rediscover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Rediscover labelings for the small wheels
+        run: python3 search/search_wheel_labelings.py -n 7 8 9 --time-limit 120
+
+  paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install a minimal TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended latexmk
+      - name: Compile the paper
+        run: latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+        working-directory: paper
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper
+          path: paper/main.pdf

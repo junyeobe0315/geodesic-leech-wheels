@@ -1,0 +1,40 @@
+# campaign started: 2026-09-01T14:41:02Z
+# host: Linux 6.18.33.1-microsoft-standard-WSL2; cpu: Intel(R) Core(TM) i5-14400F; nproc=16
+# python: Python 3.13.12
+stage	wheel	seed	status	wall_s	detail
+A	W_5	20260831	PASS	0	W_5   PASS      0.0s, 2 feasible sets  (a labeling not in Table 1)
+A	W_6	20260831	PASS	0	W_6   PASS      0.0s, 2 feasible sets  (a labeling not in Table 1)
+A	W_7	20260831	PASS	0	W_7   PASS      0.0s, 16 feasible sets  (a labeling not in Table 1)
+A	W_8	20260831	PASS	0	W_8   PASS      0.0s, 98 feasible sets  (a labeling not in Table 1)
+A	W_9	20260831	PASS	1	W_9   PASS      0.4s, 2064 feasible sets  (a labeling not in Table 1)
+A	W_10	20260831	PASS	9	W_10  PASS      9.4s, 11927 feasible sets  (a labeling not in Table 1)
+A	W_11	20260831	PASS	53	W_11  PASS      47.3s, 10528 feasible sets  (a labeling not in Table 1)
+A	W_12	20260831	PASS	253	W_12  PASS      232.2s, 13086 feasible sets  (a labeling not in Table 1)
+B	W_13	2	PASS	275	W_13  PASS      248.1s, 271 feasible sets  (a labeling not in Table 1)
+B	W_13	1	stopped_after_winner	275	
+B	W_13	3	stopped_after_winner	275	
+B	W_13	4	stopped_after_winner	275	
+B	W_13	5	stopped_after_winner	275	
+B	W_13	6	stopped_after_winner	275	
+B	W_13	7	stopped_after_winner	275	
+B	W_13	8	stopped_after_winner	275	
+# stage C (CPython) stopped at 2026-09-01T15:00:26Z after ~25 min x 8 workers, superseded by the C++ engine
+# (validated: W_7..W_13 all found and cross-verified by the Python is_geodesic_leech; ~87x CPython step throughput)
+# cpython W_14 seed 1 last progress: W_14: 465s 10,398,000 steps 52 feasible sets 0 orders tried current cost 3
+# cpython W_14 seed 2 last progress: W_14: 465s 10,438,800 steps 41 feasible sets 0 orders tried current cost 3
+# cpython W_14 seed 3 last progress: W_14: 465s 10,416,000 steps 80 feasible sets 0 orders tried current cost 6
+# cpython W_14 seed 4 last progress: W_14: 465s 10,423,400 steps 57 feasible sets 0 orders tried current cost 10
+# cpython W_14 seed 5 last progress: W_14: 465s 10,516,000 steps 61 feasible sets 0 orders tried current cost 4
+# cpython W_14 seed 6 last progress: W_14: 465s 10,416,800 steps 33 feasible sets 0 orders tried current cost 3
+# cpython W_14 seed 7 last progress: W_14: 465s 10,373,400 steps 67 feasible sets 0 orders tried current cost 3
+# cpython W_14 seed 8 last progress: W_14: 465s 10,437,200 steps 39 feasible sets 0 orders tried current cost 4
+# stage C' (C++ engine) started: 2026-09-01T15:00:33Z
+Ccpp	W_14	1	not_found	70816	W_14  not found   64800s, 753087 feasible sets, 0 orders tried
+Ccpp	W_14	2	not_found	70816	W_14  not found   64800s, 755447 feasible sets, 0 orders tried
+Ccpp	W_14	3	not_found	70816	W_14  not found   64800s, 754964 feasible sets, 0 orders tried
+Ccpp	W_14	4	not_found	70816	W_14  not found   64800s, 756167 feasible sets, 0 orders tried
+Ccpp	W_14	5	not_found	70816	W_14  not found   64800s, 754410 feasible sets, 0 orders tried
+Ccpp	W_14	6	not_found	70816	W_14  not found   64800s, 753073 feasible sets, 0 orders tried
+Ccpp	W_14	7	not_found	70816	W_14  not found   64800s, 751758 feasible sets, 0 orders tried
+Ccpp	W_14	8	not_found	70816	W_14  not found   64800s, 748102 feasible sets, 0 orders tried
+# stage C' finished: 2026-09-02T10:40:49Z

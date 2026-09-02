@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+title: >-
+  Companion code and data for "A finiteness theorem for geodesic Leech
+  wheels"
+message: >-
+  If you use this repository, please cite the article. The repository itself may
+  be cited via the entry below.
+type: software
+authors:
+  - family-names: Yim
+    given-names: Junyeop
+    email: junyeobe0315@smail.kongju.ac.kr
+    orcid: https://orcid.org/0009-0005-4419-9685
+    affiliation: >-
+      Department of Applied Mathematics, Kongju National University
+repository-code: https://github.com/junyeobe0315/geodesic-leech-wheels
+# code/ and search/ are MIT; paper/ and data/ are CC BY 4.0 (see README).
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - geodesic Leech labeling
+  - geodesic path number
+  - non-geodesic Leech graph
+  - wheel graph
+  - Sidon set
+  - additive basis
+  - generating-function method
+  - graph labeling
+preferred-citation:
+  type: article
+  title: "A finiteness theorem for geodesic Leech wheels"
+  authors:
+    - family-names: Yim
+      given-names: Junyeop
+      orcid: https://orcid.org/0009-0005-4419-9685
+      affiliation: >-
+        Department of Applied Mathematics, Kongju National University
+  year: 2026
+  url: https://github.com/junyeobe0315/geodesic-leech-wheels
+  # Add the arXiv eprint once assigned, e.g.
+  #   identifiers:
+  #     - type: other
+  #       value: "arXiv:XXXX.XXXXX"
+  abstract: >-
+    If n >= 5 and the wheel W_n admits a geodesic Leech labeling, then n <= 40.
+    Explicit labelings of W_7,...,W_13 refute a problem of Lakshmanan S. and
+    Manattu, giving {5,...,13} subset of E subset of {5,...,40}.
