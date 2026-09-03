@@ -3,6 +3,7 @@ typeset, so the LaTeX version in main.tex is kept as it is and this one drops th
 markup. Suggested primary class: math.CO, cross-listed math.NT
 (MSC 05C78; secondary 05C12, 11B13, 42A05).
 
+Submitted 2026-09-02; published as arXiv:2609.02544 (math.CO, cross-list math.NT).
 Keep the two paragraphs below in step with the abstract in main.tex.
 
 ----------------------------------------------------------------------

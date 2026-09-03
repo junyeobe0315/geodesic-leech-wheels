@@ -5,13 +5,13 @@
 ![c++17](https://img.shields.io/badge/C%2B%2B-C%2B%2B17-blue)
 ![category](https://img.shields.io/badge/category-combinatorics_(math.CO)-blueviolet)
 ![reviewed](https://img.shields.io/badge/peer%20reviewed-no-orange)
-![arXiv](https://img.shields.io/badge/arXiv-pending-lightgrey)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.02544-b31b1b)](https://arxiv.org/abs/2609.02544)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22254583-blue)](https://doi.org/10.5281/zenodo.22254583)
 
 Companion repository for the paper
 
 > **A finiteness theorem for geodesic Leech wheels**
-> — Junyeop Yim (2026), Department of Applied Mathematics, Kongju National University.
+> — Junyeop Yim, [arXiv:2609.02544](https://arxiv.org/abs/2609.02544) (2026).
 > [paper/main.pdf](paper/main.pdf) · source: [paper/](paper/)
 
 A positive-integer edge labeling of a graph is a *geodesic Leech labeling* if the

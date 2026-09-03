@@ -38,11 +38,10 @@ preferred-citation:
       affiliation: >-
         Department of Applied Mathematics, Kongju National University
   year: 2026
-  url: https://github.com/junyeobe0315/geodesic-leech-wheels
-  # Add the arXiv eprint once assigned, e.g.
-  #   identifiers:
-  #     - type: other
-  #       value: "arXiv:XXXX.XXXXX"
+  url: https://arxiv.org/abs/2609.02544
+  identifiers:
+    - type: other
+      value: "arXiv:2609.02544"
   abstract: >-
     If n >= 5 and the wheel W_n admits a geodesic Leech labeling, then n <= 40.
     Explicit labelings of W_7,...,W_13 refute a problem of Lakshmanan S. and
